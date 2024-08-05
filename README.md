@@ -1,33 +1,56 @@
-Airline-Customer-Satisfaction-Analysis
+**Airline-Customer-Satisfaction-Analysis**
 
-This data analysis project aims to provide insights into the performance of ariline. As someone who has always been interested in travel, I understand that the journey, primarily consisting of Seat comfort, Departure/Arrival time convenient and inflight time, is an essential part of the traveling experience. But, what exactly makes an airline the best airline in the world?
+**Project Background**
 
-DATA-Source
-The primary dataset used for this "Airline.csv" file, containing detailed information about customer satisfaction.
+In the highly competitive airline industry, customer satisfaction is crucial for maintaining passenger loyality, enchancing the airline's reputation, and ensuring long-term business success. However, airlines often face challenges in understanding and addressing what causes passenger dissatisfaction. Common concerns among passengers include service quality, comfort, punctuality and overall travel experience.
 
-Objective: Clean, fit a model to predict, and visualize & interpret the passenger satisfaction data to find the relationships between category ratings and overall satisfaction of the passenger, as well as evaluate the results.
+**Objectives**
 
-Data: The dataset contains information on airline passenger satisfaction based on a survey. This is a breakdown of the information in the dataset and which category the data falls into:
+The project aims to enchane customer satisfaction and pinpoint areas for improvement by:
 
-1. Information about the customer: the data includes information about each customer such as whether their gender, their loyalty to the airline, their age
+* Identifying patterns and characteristics of dissatisfied passengers.
 
-2. Specifics about the customer's travel: This data includes the type of travel (purpose of the travel eg. for Business) for each customer, as well as which class they are travelling in (Economy, Economy plus, or Business
+* Performing supervised learning algorithms to predict passenger satisfaction.
+  
+**Methodology**
 
-3. Flight information: The distance of the flight, as well as the departure and arrival delays in minutes
+**Data Preparation**
 
-4. Categories that passengers were asked to rate out of 5 to indicate their level of satisfaction: ease of online booking, gate location, food and drink, online boarding, seat comfort, inflight entertainment, inflight wifi service, on-board service, leg room service, baggage handling, check-in service, inflight service, and cleanliness.
- 
-5. Overall satisfaction: A summary category indicating whether the customer is satisfied, or neutral/dissatisfied.
+ * Source: Data obtained from Kaggle, which contains airline Passenger satisfaction survey.
 
-Data Cleaning /Preparation
-In the initial data preparation phase, we performed the following tasks:
+ * Actions: Cleaning and preparing the data for analysis.
 
-1.Data loading and inspections.
+  **Exploratory Data Analysis (EDA)**
 
-2.Handling missing values.
+  * Purpose: To discover patterns, spot anomalies and gain a deeper unserstanding of the dataset's characteristics.
 
-3.Data cleaning and formating
+  * Technique: Visualization, summary statistics and correlation analysis.
 
-4.Exploratory Data Analysis
+  **Machine Learning**
 
-EDA involved exploring the sales data to answer key questions, such as:
+   * Goals:Build model to predict customer Satisfaction.
+
+   * Approach: 1 algorithm is evaluated to determine the model.
+
+  **Tools**
+
+  * Programming Languahe: Python
+
+  * Libraries: pandas,numpy,matplotlib,seaborn
+
+**Results**
+
+  The analysis revealed that the Logistic Regression model, achieving an accuracy of 72.4%, was the effective in predicting customer 
+  satisfaction. By implementing the findings from this project, airlines can make data-driven decisions to refine their services, 
+   ultimately 
+  leading to higher customer satisfaction, increased loyality, and a stronger competitive position in market.
+
+**Future Work**
+
+  * Model Improvement: Explore more advanced machine learning algorithms and feature engineering techniques to improve model accuracy.
+  * Broader Applications: Extend the analysis to other aspects of airline operationssuch as flight delays and baggage handling, to further 
+    enhance customer experience.
+  
+
+
+
